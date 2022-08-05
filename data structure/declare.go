@@ -15,7 +15,7 @@ func main() {
 	//函数内部定义的变量只能在函数内使用
 	const freezingF, boilingF = 32.0, 212.0
 	fmt.Println("123")
-
+	fmt.Printf("12321")
 	fmt.Println("123")
 	fmt.Printf("%g°F = %g°C\n", freezingF, fToC(freezingF)) // "32°F = 0°C"
 	fmt.Printf("%g°F = %g°C\n", boilingF, fToC(boilingF))   // "212°F = 100°C"
