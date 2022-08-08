@@ -20,6 +20,7 @@ func main() {
 	fmt.Printf("%g°F = %g°C\n", freezingF, fToC(freezingF)) // "32°F = 0°C"
 	fmt.Printf("%g°F = %g°C\n", boilingF, fToC(boilingF))   // "212°F = 100°C"
 	fmt.Printf("1232141241")
+	fmt.Printf("123214123121241")
 }
 
 //方法包括了一个函数的声明由一个函数名字、参数列表（由函数的调用者提供参数变量的具体值）
