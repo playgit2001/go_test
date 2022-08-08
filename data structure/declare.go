@@ -1,14 +1,14 @@
-package data_structure
+package main
 
 import "fmt"
 
 //在函数外的变量属于包一级，在同个包下的每个源文件中访问
-var variable1 string //变量声明
+//var variable1 string //变量声明
 
-type variable2 struct { //结构声明
+/*type variable2 struct { //结构声明
 	ID   int64
 	name string
-}
+}*/
 
 const name = 123 //常量声明
 func main() {
@@ -19,6 +19,7 @@ func main() {
 	fmt.Println("123")
 	fmt.Printf("%g°F = %g°C\n", freezingF, fToC(freezingF)) // "32°F = 0°C"
 	fmt.Printf("%g°F = %g°C\n", boilingF, fToC(boilingF))   // "212°F = 100°C"
+	fmt.Printf("1232141241")
 }
 
 //方法包括了一个函数的声明由一个函数名字、参数列表（由函数的调用者提供参数变量的具体值）
